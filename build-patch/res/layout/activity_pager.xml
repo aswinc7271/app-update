@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout android:id="@id/drawerLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.Toolbar android:theme="@style/ThemeOverlay.MaterialComponents.ActionBar" android:id="@id/toolbar" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <app.greyshirts.firewall.ui.widget.ScrollDisabledViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0" />
+        <com.google.android.material.bottomnavigation.BottomNavigationView android:id="@id/bottomNavigation" android:background="@color/colorPrimaryDark" android:layout_width="fill_parent" android:layout_height="wrap_content" app:itemIconTint="@color/bottom_navigation_colors" app:itemTextColor="@color/bottom_navigation_colors" app:labelVisibilityMode="labeled" app:menu="@menu/bottom_navigation_items" />
+    </LinearLayout>
+    <com.google.android.material.navigation.NavigationView android:background="#ff170e14" app:itemTextColor="@color/bottom_navigation_colors" app:itemIconTint="@color/bottom_navigation_colors" android:layout_gravity="start" android:id="@id/navigation" android:layout_width="wrap_content" android:layout_height="fill_parent" app:headerLayout="@layout/drawer_header" app:menu="@menu/drawer_items" />
+</androidx.drawerlayout.widget.DrawerLayout>
