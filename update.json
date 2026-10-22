@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "versionCode": 67,
+  "versionName": "4.0.2-malayali.17",
+  "releaseNumber": 17,
+  "releasedAt": "2026-10-22",
+  "apkUrl": "https://github.com/aswinc7271/app-update/releases/download/v17/MALAYALI-time-fixer-v17.apk",
+  "sizeBytes": 3979874,
+  "sha256": "6bee423edb4a0c1dc02dbe6c0602a54ad9080d3e670e7a17a27f242ffb666be6",
+  "notes": "V17: updater migrated to aswinc7271/app-update; glass UI and floating controls retained. Install once to receive future updates from this repository.",
+  "changes": [
+    "V17: updater migrated to aswinc7271/app-update; glass UI and floating controls retained. Install once to receive future updates from this repository."
+  ]
+}
